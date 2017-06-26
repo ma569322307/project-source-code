@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YYTBlankView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="215"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blank_bowl" translatesAutoresizingMaskIntoConstraints="NO" id="ZpR-Kj-pWO">
+                    <rect key="frame" x="95" y="0.0" width="130" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="4Mr-EM-1x0"/>
+                        <constraint firstAttribute="height" constant="130" id="rb6-wD-9ca"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网络异常……" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAl-bn-Lhx">
+                    <rect key="frame" x="0.0" y="144" width="320" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="ffH-w5-nKp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4K-QC-3t4">
+                    <rect key="frame" x="73" y="164" width="175" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="175" id="4Nd-qT-6Pp"/>
+                        <constraint firstAttribute="height" constant="50" id="n5k-FX-1Hc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="刷新" backgroundImage="blank_button_normal">
+                        <color key="titleColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="blank_button_highlight">
+                        <color key="titleColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="eventClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="rvk-FD-m2w"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="ZpR-Kj-pWO" secondAttribute="centerX" id="7kl-XP-u8q"/>
+                <constraint firstAttribute="trailing" secondItem="LAl-bn-Lhx" secondAttribute="trailing" id="EPY-qh-swh"/>
+                <constraint firstItem="LAl-bn-Lhx" firstAttribute="top" secondItem="ZpR-Kj-pWO" secondAttribute="bottom" constant="14" id="Uuf-Xq-FSv"/>
+                <constraint firstItem="b4K-QC-3t4" firstAttribute="top" secondItem="LAl-bn-Lhx" secondAttribute="bottom" constant="4" id="evF-lZ-u0O"/>
+                <constraint firstItem="LAl-bn-Lhx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ife-eA-7Lw"/>
+                <constraint firstItem="ZpR-Kj-pWO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="j2j-DI-xSn"/>
+                <constraint firstAttribute="centerX" secondItem="b4K-QC-3t4" secondAttribute="centerX" id="mW4-sF-ufr"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonWidthConstraint" destination="4Nd-qT-6Pp" id="h2O-ye-dWx"/>
+                <outlet property="contentLabel" destination="LAl-bn-Lhx" id="F0B-Oj-a4E"/>
+                <outlet property="eventButton" destination="b4K-QC-3t4" id="VYI-tY-JlP"/>
+                <outlet property="headImageView" destination="ZpR-Kj-pWO" id="KO3-DR-CFB"/>
+                <outlet property="tipTopConstraint" destination="Uuf-Xq-FSv" id="5EV-db-hMD"/>
+            </connections>
+            <point key="canvasLocation" x="389" y="-237"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="blank_bowl" width="90" height="90"/>
+        <image name="blank_button_highlight" width="175" height="50"/>
+        <image name="blank_button_normal" width="175" height="50"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

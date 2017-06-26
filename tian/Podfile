@@ -1,0 +1,16 @@
+platform :ios,'5.0'
+target 'tian'do
+pod 'SDWebImage', '~> 3.7.1'
+pod 'MBProgressHUD', '~> 0.9'
+pod 'Base64', '~> 1.0.1'
+pod 'OpenUDID', '~> 1.0.0'
+pod 'Mantle', '~> 1.5.4'
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'Masonry'
+pod 'IQKeyboardManager', '~> 3.2.4'
+pod 'RongCloudIMKit', '~> 2.2.5'
+pod 'UMengAnalytics', '~> 3.5.8'
+pod 'RSKImageCropper', '~> 1.2.1'
+pod 'MJRefresh'
+end

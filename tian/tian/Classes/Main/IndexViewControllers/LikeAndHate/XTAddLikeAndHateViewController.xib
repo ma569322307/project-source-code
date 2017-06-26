@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XTAddLikeAndHateViewController">
+            <connections>
+                <outlet property="clearButton" destination="7sv-XU-KnU" id="auu-wP-Adn"/>
+                <outlet property="searchBarView" destination="73c-jO-qoR" id="TQ5-Gg-cuX"/>
+                <outlet property="searchTextfield" destination="8Wx-Eu-GfV" id="HFn-M8-CJR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="182" y="330"/>
+        </view>
+        <view contentMode="scaleToFill" id="73c-jO-qoR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_input_border" translatesAutoresizingMaskIntoConstraints="NO" id="ua4-Nz-zuq">
+                    <rect key="frame" x="6" y="3" width="270" height="38"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="搜一下我家的那谁" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Wx-Eu-GfV">
+                    <rect key="frame" x="48" y="7" width="192" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="3Lt-Eu-7mk"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYX-U3-PEs">
+                    <rect key="frame" x="280" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Ahn-SC-NKj"/>
+                    </constraints>
+                    <state key="normal" image="search_close">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="closeButtonClick:" destination="-1" eventType="touchUpInside" id="bhm-GH-To8"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sv-XU-KnU">
+                    <rect key="frame" x="237" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="3Ld-8E-xwa"/>
+                    </constraints>
+                    <state key="normal" image="search_delete_normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="search_delete_highlight"/>
+                    <connections>
+                        <action selector="clearButtonClick:" destination="-1" eventType="touchUpInside" id="7VN-dU-JoV"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_glass_gray" translatesAutoresizingMaskIntoConstraints="NO" id="402-zc-MxZ">
+                    <rect key="frame" x="19" y="11" width="21" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="fDk-Z9-Mi4"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="MYX-U3-PEs" secondAttribute="bottom" constant="2" id="3Bk-p2-qgh"/>
+                <constraint firstAttribute="bottom" secondItem="7sv-XU-KnU" secondAttribute="bottom" constant="2" id="9n5-Hv-WOE"/>
+                <constraint firstAttribute="bottom" secondItem="8Wx-Eu-GfV" secondAttribute="bottom" constant="7" id="E45-HQ-bIH"/>
+                <constraint firstItem="MYX-U3-PEs" firstAttribute="leading" secondItem="ua4-Nz-zuq" secondAttribute="trailing" constant="4" id="EXL-oq-iQl"/>
+                <constraint firstItem="ua4-Nz-zuq" firstAttribute="leading" secondItem="73c-jO-qoR" secondAttribute="leading" constant="6" id="HJ9-uD-0ys"/>
+                <constraint firstItem="402-zc-MxZ" firstAttribute="top" secondItem="73c-jO-qoR" secondAttribute="top" constant="11" id="Iq2-FC-MJS"/>
+                <constraint firstAttribute="bottom" secondItem="402-zc-MxZ" secondAttribute="bottom" constant="12" id="MHF-8n-LfG"/>
+                <constraint firstAttribute="trailing" secondItem="MYX-U3-PEs" secondAttribute="trailing" id="TrP-hL-um9"/>
+                <constraint firstItem="402-zc-MxZ" firstAttribute="leading" secondItem="73c-jO-qoR" secondAttribute="leading" constant="19" id="ZMu-Hv-LSC"/>
+                <constraint firstItem="MYX-U3-PEs" firstAttribute="top" secondItem="73c-jO-qoR" secondAttribute="top" constant="2" id="ZeO-3H-WgB"/>
+                <constraint firstItem="ua4-Nz-zuq" firstAttribute="top" secondItem="73c-jO-qoR" secondAttribute="top" constant="3" id="fXH-UU-Kce"/>
+                <constraint firstAttribute="trailing" secondItem="7sv-XU-KnU" secondAttribute="trailing" constant="43" id="s92-7H-fji"/>
+                <constraint firstItem="7sv-XU-KnU" firstAttribute="leading" secondItem="8Wx-Eu-GfV" secondAttribute="trailing" constant="-3" id="u2z-6q-4vt"/>
+                <constraint firstItem="8Wx-Eu-GfV" firstAttribute="leading" secondItem="402-zc-MxZ" secondAttribute="trailing" constant="8" id="u4c-n8-CBs"/>
+                <constraint firstAttribute="bottom" secondItem="ua4-Nz-zuq" secondAttribute="bottom" constant="3" id="vFL-j1-GNH"/>
+                <constraint firstItem="8Wx-Eu-GfV" firstAttribute="top" secondItem="73c-jO-qoR" secondAttribute="top" constant="7" id="y4J-fn-858"/>
+                <constraint firstItem="7sv-XU-KnU" firstAttribute="top" secondItem="73c-jO-qoR" secondAttribute="top" constant="2" id="znG-Ab-Xa6"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="560" y="79"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="search_close" width="40" height="40"/>
+        <image name="search_delete_highlight" width="25" height="25"/>
+        <image name="search_delete_normal" width="25" height="25"/>
+        <image name="search_glass_gray" width="21" height="21"/>
+        <image name="search_input_border" width="308" height="38"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

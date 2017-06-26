@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="87" id="KGk-i7-Jjw" customClass="XTTopicWithUserHeaderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yZ-ke-NEc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomePage_headImage_default" translatesAutoresizingMaskIntoConstraints="NO" id="DSF-Kg-fud">
+                                <rect key="frame" x="5" y="5" width="67" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="VKf-55-tgw"/>
+                                    <constraint firstAttribute="width" constant="67" id="Wl5-gt-mi3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在最好的时光遇见最美的你（99）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9z-rk-gig">
+                                <rect key="frame" x="77" y="17" width="213" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="RE7-5b-o40"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="流逝的青春" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TC-0v-T7Y">
+                                <rect key="frame" x="82" y="57" width="180" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="13" id="BQs-tr-Im6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在最好的时光遇见最美的你。。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="347-ev-XJj">
+                                <rect key="frame" x="77" y="38" width="213" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Ebj-Rc-7ge"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomePage_headImage_default" translatesAutoresizingMaskIntoConstraints="NO" id="DGH-wW-sFu">
+                                <rect key="frame" x="270" y="53" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="DxO-Nc-QVo"/>
+                                    <constraint firstAttribute="height" constant="22" id="JZ3-oz-mhe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DGH-wW-sFu" firstAttribute="leading" secondItem="5TC-0v-T7Y" secondAttribute="trailing" constant="8" id="6eM-GP-cRI"/>
+                            <constraint firstItem="DSF-Kg-fud" firstAttribute="top" secondItem="1yZ-ke-NEc" secondAttribute="top" constant="5" id="9Oo-6l-6ij"/>
+                            <constraint firstAttribute="trailing" secondItem="Q9z-rk-gig" secondAttribute="trailing" constant="30" id="ABd-uH-IVd"/>
+                            <constraint firstItem="347-ev-XJj" firstAttribute="leading" secondItem="DSF-Kg-fud" secondAttribute="trailing" constant="5" id="Azn-K5-WHL"/>
+                            <constraint firstAttribute="trailing" secondItem="347-ev-XJj" secondAttribute="trailing" constant="30" id="BRO-OV-e2M"/>
+                            <constraint firstItem="Q9z-rk-gig" firstAttribute="leading" secondItem="DSF-Kg-fud" secondAttribute="trailing" constant="5" id="D7H-lP-hka"/>
+                            <constraint firstItem="DSF-Kg-fud" firstAttribute="leading" secondItem="1yZ-ke-NEc" secondAttribute="leading" constant="5" id="GME-GY-YDt"/>
+                            <constraint firstAttribute="bottom" secondItem="DGH-wW-sFu" secondAttribute="bottom" constant="1" id="R5J-Bv-mOa"/>
+                            <constraint firstItem="347-ev-XJj" firstAttribute="top" secondItem="Q9z-rk-gig" secondAttribute="bottom" constant="5" id="f9p-R4-3iI"/>
+                            <constraint firstItem="Q9z-rk-gig" firstAttribute="top" secondItem="1yZ-ke-NEc" secondAttribute="top" constant="17" id="jfp-w8-SXN"/>
+                            <constraint firstAttribute="bottom" secondItem="5TC-0v-T7Y" secondAttribute="bottom" constant="6" id="mgN-U4-2xb"/>
+                            <constraint firstItem="5TC-0v-T7Y" firstAttribute="leading" secondItem="DSF-Kg-fud" secondAttribute="trailing" constant="10" id="qa7-b9-CWj"/>
+                            <constraint firstAttribute="trailing" secondItem="DGH-wW-sFu" secondAttribute="trailing" constant="28" id="sbO-if-Udt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1yZ-ke-NEc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="btQ-2K-0jN"/>
+                    <constraint firstAttribute="trailing" secondItem="1yZ-ke-NEc" secondAttribute="trailing" id="tqp-OH-hhK"/>
+                    <constraint firstItem="1yZ-ke-NEc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xJ1-EE-Ebr"/>
+                    <constraint firstAttribute="bottom" secondItem="1yZ-ke-NEc" secondAttribute="bottom" constant="0.5" id="yPc-FL-PAI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionlable" destination="347-ev-XJj" id="bWZ-ti-UVf"/>
+                <outlet property="headImage" destination="DGH-wW-sFu" id="SfJ-ta-iXI"/>
+                <outlet property="image" destination="DSF-Kg-fud" id="AEi-N1-Ji6"/>
+                <outlet property="nickNameLable" destination="5TC-0v-T7Y" id="Q1G-PR-hZB"/>
+                <outlet property="titleLable" destination="Q9z-rk-gig" id="EVL-S2-Rlc"/>
+            </connections>
+            <point key="canvasLocation" x="232" y="-66.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HomePage_headImage_default" width="99" height="99"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

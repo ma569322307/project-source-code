@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XTAboutOursViewController">
+            <connections>
+                <outlet property="versionLabel" destination="KIk-rV-VDC" id="jPn-qv-VRN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aboutProtuct" translatesAutoresizingMaskIntoConstraints="NO" id="jXt-q0-0sX">
+                    <rect key="frame" x="110" y="101" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="eEn-43-cm2"/>
+                        <constraint firstAttribute="width" constant="100" id="uQV-6i-PRq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIk-rV-VDC">
+                    <rect key="frame" x="60" y="209" width="200" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="YIO-pi-PMW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ohK-PY-a3m">
+                    <rect key="frame" x="95" y="470" width="130" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="Pvd-cI-oGe"/>
+                        <constraint firstAttribute="width" constant="130" id="XAT-bL-Tgd"/>
+                        <constraint firstAttribute="height" constant="1" id="n5A-t5-cWD"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKg-jc-7ob">
+                    <rect key="frame" x="60" y="450" width="200" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="p8i-1R-ESb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="舔的服务条款及版权声明">
+                        <color key="titleColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonClicked:" destination="-1" eventType="touchUpInside" id="qkt-Xs-65K"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2009-2015 yinyuetai.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmo-w3-caY">
+                    <rect key="frame" x="44" y="487" width="233" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="gOi-Tt-vHS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ohK-PY-a3m" firstAttribute="top" secondItem="bKg-jc-7ob" secondAttribute="bottom" id="6Od-Am-y2K"/>
+                <constraint firstAttribute="bottom" secondItem="vmo-w3-caY" secondAttribute="bottom" constant="61" id="HLo-wa-oVx"/>
+                <constraint firstItem="vmo-w3-caY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="44" id="M3g-HD-D44"/>
+                <constraint firstItem="vmo-w3-caY" firstAttribute="centerX" secondItem="ohK-PY-a3m" secondAttribute="centerX" constant="0.5" id="a96-6q-IFT"/>
+                <constraint firstAttribute="centerX" secondItem="jXt-q0-0sX" secondAttribute="centerX" id="bh8-le-ZWV"/>
+                <constraint firstItem="bKg-jc-7ob" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="f9f-Rc-Uu6"/>
+                <constraint firstAttribute="trailing" secondItem="vmo-w3-caY" secondAttribute="trailing" constant="43" id="fqo-Qg-7By"/>
+                <constraint firstAttribute="trailing" secondItem="bKg-jc-7ob" secondAttribute="trailing" constant="60" id="g07-7f-gJM"/>
+                <constraint firstItem="KIk-rV-VDC" firstAttribute="top" secondItem="jXt-q0-0sX" secondAttribute="bottom" constant="8" id="mjC-qt-cbK"/>
+                <constraint firstItem="vmo-w3-caY" firstAttribute="top" secondItem="ohK-PY-a3m" secondAttribute="bottom" constant="16" id="pVU-ge-YxJ"/>
+                <constraint firstItem="jXt-q0-0sX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="101" id="rOb-5N-ne9"/>
+                <constraint firstItem="KIk-rV-VDC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="rzN-qw-Ocb"/>
+                <constraint firstAttribute="trailing" secondItem="KIk-rV-VDC" secondAttribute="trailing" constant="60" id="x2O-j6-Dxi"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="484" y="343"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aboutProtuct" width="512" height="512"/>
+    </resources>
+</document>

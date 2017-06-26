@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="55" id="KGk-i7-Jjw" customClass="XTMessageSetTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="消息提醒" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92I-do-npk">
+                        <rect key="frame" x="15" y="16" width="168" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="tew-cm-Van"/>
+                            <constraint firstAttribute="width" constant="168" id="vFU-qX-OOR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.31764705879999999" green="0.31764705879999999" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rN5-BD-fkT">
+                        <rect key="frame" x="257" y="11" width="51" height="31"/>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="rN5-BD-fkT" secondAttribute="trailing" constant="14" id="6D0-Rw-J7L"/>
+                    <constraint firstAttribute="centerY" secondItem="rN5-BD-fkT" secondAttribute="centerY" id="F2R-lU-5vi"/>
+                    <constraint firstItem="92I-do-npk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="PSh-BO-lx6"/>
+                    <constraint firstAttribute="centerY" secondItem="92I-do-npk" secondAttribute="centerY" id="vbA-ns-afT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="messageSwitch" destination="rN5-BD-fkT" id="wza-rS-BTx"/>
+                <outlet property="titleLabel" destination="92I-do-npk" id="RTt-v8-7G3"/>
+            </connections>
+            <point key="canvasLocation" x="336" y="215"/>
+        </tableViewCell>
+    </objects>
+</document>

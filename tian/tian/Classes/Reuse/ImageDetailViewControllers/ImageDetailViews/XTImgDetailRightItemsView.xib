@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XTImgDetailRightItemsView">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gml-FB-LMA">
+                    <rect key="frame" x="40" y="0.0" width="40" height="40"/>
+                    <state key="normal" backgroundImage="collect_d">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="collect_h"/>
+                    <connections>
+                        <action selector="collectBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Hro-5V-5lY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTZ-T6-d72">
+                    <rect key="frame" x="80" y="0.0" width="40" height="40"/>
+                    <state key="normal" backgroundImage="add_d">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="kar-Dc-tYS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brl-IM-7JU">
+                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="0ua-Hd-YGJ"/>
+                        <constraint firstAttribute="height" constant="40" id="lXI-4B-cjg"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="downLoad">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="downLoadBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="TLY-LG-h87"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="bTZ-T6-d72" secondAttribute="centerY" id="83K-hM-vTU"/>
+                <constraint firstItem="gml-FB-LMA" firstAttribute="leading" secondItem="brl-IM-7JU" secondAttribute="trailing" id="99n-3u-OUy"/>
+                <constraint firstItem="brl-IM-7JU" firstAttribute="width" secondItem="gml-FB-LMA" secondAttribute="width" id="OAf-9p-imu"/>
+                <constraint firstAttribute="centerY" secondItem="gml-FB-LMA" secondAttribute="centerY" id="S5O-ri-1rD"/>
+                <constraint firstItem="brl-IM-7JU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Vto-LH-1Q9"/>
+                <constraint firstItem="gml-FB-LMA" firstAttribute="width" secondItem="bTZ-T6-d72" secondAttribute="width" id="Wye-31-tqu"/>
+                <constraint firstItem="gml-FB-LMA" firstAttribute="height" secondItem="bTZ-T6-d72" secondAttribute="height" id="dSm-Yo-691"/>
+                <constraint firstItem="brl-IM-7JU" firstAttribute="height" secondItem="gml-FB-LMA" secondAttribute="height" id="kId-Dj-JWK"/>
+                <constraint firstItem="bTZ-T6-d72" firstAttribute="leading" secondItem="gml-FB-LMA" secondAttribute="trailing" id="p5K-c1-FIg"/>
+                <constraint firstAttribute="centerY" secondItem="brl-IM-7JU" secondAttribute="centerY" id="ufJ-Uv-8Vu"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="downLoadBtn" destination="brl-IM-7JU" id="JmT-bc-bOl"/>
+                <outlet property="favoritedBtn" destination="gml-FB-LMA" id="W43-Pd-Ua0"/>
+            </connections>
+            <point key="canvasLocation" x="341" y="518"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add_d" width="40" height="40"/>
+        <image name="collect_d" width="40" height="40"/>
+        <image name="collect_h" width="40" height="40"/>
+        <image name="downLoad" width="40" height="40"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

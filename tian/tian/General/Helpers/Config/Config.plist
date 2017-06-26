@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppId</key>
+	<dict>
+		<key>App_Secret</key>
+		<string>n0d7wf6kb991e69e51956w52bc0d0c09</string>
+		<key>App_Key</key>
+		<string>10112</string>
+		<key>App_Id</key>
+		<string>10112001</string>
+	</dict>
+	<key>ChannelId</key>
+	<dict>
+		<key>UMChannelId</key>
+		<string>10101_100001000</string>
+		<key>YinYueTaiChannelId</key>
+		<string>100001000</string>
+	</dict>
+</dict>
+</plist>

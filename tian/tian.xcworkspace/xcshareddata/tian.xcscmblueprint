@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7117841A833D0CD369F5BA35E12368B12F038A8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "0ca368a2-116c-4581-a88b-b757789b1467++565" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0ca368a2-116c-4581-a88b-b757789b1467++565" : 0,
+    "3B6E13CE1DED0DC8EE8196940785DE028D6F59E9" : 9223372036854775807,
+    "7117841A833D0CD369F5BA35E12368B12F038A8D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "30582C09-C43E-49DF-8628-CB2EE4781830",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0ca368a2-116c-4581-a88b-b757789b1467++565" : "tian\/tian\/Vendors\/TTTAttributedLabel\/",
+    "3B6E13CE1DED0DC8EE8196940785DE028D6F59E9" : "",
+    "7117841A833D0CD369F5BA35E12368B12F038A8D" : "tian\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tian",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tian.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.10.174.54\/ABMobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0ca368a2-116c-4581-a88b-b757789b1467++565"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ma569322307\/yinyuetai_tian.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B6E13CE1DED0DC8EE8196940785DE028D6F59E9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git-server:ios\/business\/tian.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7117841A833D0CD369F5BA35E12368B12F038A8D"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Yqv-Vy-d3h" customClass="XTMyTopicCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yqv-Vy-d3h" id="eBb-wZ-5Ay">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mBN-Pr-smc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotLicks_myTopic" translatesAutoresizingMaskIntoConstraints="NO" id="a0R-11-wSs">
+                                <rect key="frame" x="5" y="5" width="67" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="EID-el-c4y"/>
+                                    <constraint firstAttribute="width" constant="67" id="VCi-5K-8Fd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 我创建的话题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJd-ab-hcn">
+                                <rect key="frame" x="77" y="19" width="183" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VgK-Bb-Z4g"/>
+                                    <constraint firstAttribute="width" constant="183" id="sSF-db-tpg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                <color key="textColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2W-qz-nN9">
+                                <rect key="frame" x="80" y="44" width="135" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9Qh-MZ-eGX"/>
+                                    <constraint firstAttribute="width" constant="135" id="a9T-U1-kYV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photoLevel" translatesAutoresizingMaskIntoConstraints="NO" id="14p-qU-0HU">
+                                <rect key="frame" x="270" y="31" width="16" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="7tr-71-u3x"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a0R-11-wSs" firstAttribute="leading" secondItem="mBN-Pr-smc" secondAttribute="leading" constant="5" id="3zi-GK-Yra"/>
+                            <constraint firstItem="N2W-qz-nN9" firstAttribute="leading" secondItem="a0R-11-wSs" secondAttribute="trailing" constant="8" id="6Jq-rF-QyK"/>
+                            <constraint firstItem="N2W-qz-nN9" firstAttribute="top" secondItem="JJd-ab-hcn" secondAttribute="bottom" constant="4" id="BQK-qy-eIH"/>
+                            <constraint firstItem="a0R-11-wSs" firstAttribute="top" secondItem="mBN-Pr-smc" secondAttribute="top" constant="5" id="Dmd-md-fP5"/>
+                            <constraint firstItem="14p-qU-0HU" firstAttribute="top" secondItem="mBN-Pr-smc" secondAttribute="top" constant="31" id="ak0-sY-UMb"/>
+                            <constraint firstAttribute="trailing" secondItem="14p-qU-0HU" secondAttribute="trailing" constant="34" id="fJy-VO-HnI"/>
+                            <constraint firstItem="JJd-ab-hcn" firstAttribute="top" secondItem="mBN-Pr-smc" secondAttribute="top" constant="19" id="qoX-KB-bAe"/>
+                            <constraint firstItem="JJd-ab-hcn" firstAttribute="leading" secondItem="a0R-11-wSs" secondAttribute="trailing" constant="5" id="srY-QS-4Ul"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mBN-Pr-smc" secondAttribute="trailing" id="K4C-Dk-vRm"/>
+                    <constraint firstAttribute="bottom" secondItem="mBN-Pr-smc" secondAttribute="bottom" constant="0.5" id="ZeY-d1-ikk"/>
+                    <constraint firstItem="mBN-Pr-smc" firstAttribute="leading" secondItem="eBb-wZ-5Ay" secondAttribute="leading" id="b6X-7k-QFi"/>
+                    <constraint firstItem="mBN-Pr-smc" firstAttribute="top" secondItem="eBb-wZ-5Ay" secondAttribute="top" id="zBO-Tx-Sjm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lable" destination="N2W-qz-nN9" id="YP7-jO-EkC"/>
+            </connections>
+            <point key="canvasLocation" x="127" y="323.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="hotLicks_myTopic" width="71" height="71"/>
+        <image name="photoLevel" width="16" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

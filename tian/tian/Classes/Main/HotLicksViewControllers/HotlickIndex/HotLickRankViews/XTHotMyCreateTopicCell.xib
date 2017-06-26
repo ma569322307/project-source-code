@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="77" id="Yry-W7-avm" customClass="XTHotMyCreateTopicCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yry-W7-avm" id="j3V-Fd-shj">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fy-hv-lnF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5I0-Rj-488">
+                                <rect key="frame" x="5" y="5" width="67" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="MeR-ms-Akw"/>
+                                    <constraint firstAttribute="height" constant="67" id="blF-ne-a1H"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最美的时光遇见" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9J-3d-y7z">
+                                <rect key="frame" x="77" y="11" width="191" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="7Mh-1e-IBp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收藏：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kV0-i9-MJs">
+                                <rect key="frame" x="212" y="50" width="90" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="2hp-P7-T5z"/>
+                                    <constraint firstAttribute="height" constant="16" id="SH2-Qz-9oR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="帖子数：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xg2-nk-4RA">
+                                <rect key="frame" x="77" y="50" width="44" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="U9t-RD-HKf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最美的时光遇见最美的你在最美的海滩" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiv-jF-3zs">
+                                <rect key="frame" x="77" y="31" width="205" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="ZJs-yX-zES"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="S9J-3d-y7z" secondAttribute="trailing" constant="52" id="1wo-lK-1Tx"/>
+                            <constraint firstAttribute="bottom" secondItem="5I0-Rj-488" secondAttribute="bottom" constant="4" id="3ar-Mr-2M8"/>
+                            <constraint firstAttribute="trailing" secondItem="tiv-jF-3zs" secondAttribute="trailing" constant="38" id="F6V-PN-c9N"/>
+                            <constraint firstItem="Xg2-nk-4RA" firstAttribute="top" secondItem="tiv-jF-3zs" secondAttribute="bottom" constant="3" id="L5d-xQ-jWG"/>
+                            <constraint firstItem="tiv-jF-3zs" firstAttribute="leading" secondItem="5I0-Rj-488" secondAttribute="trailing" constant="5" id="QgF-a7-nI9"/>
+                            <constraint firstItem="Xg2-nk-4RA" firstAttribute="leading" secondItem="5I0-Rj-488" secondAttribute="trailing" constant="5" id="To6-oL-9sx"/>
+                            <constraint firstItem="tiv-jF-3zs" firstAttribute="top" secondItem="S9J-3d-y7z" secondAttribute="bottom" constant="4" id="UtO-Fv-ftN"/>
+                            <constraint firstItem="kV0-i9-MJs" firstAttribute="top" secondItem="tiv-jF-3zs" secondAttribute="bottom" constant="3" id="VmX-NS-TmE"/>
+                            <constraint firstItem="S9J-3d-y7z" firstAttribute="top" secondItem="9fy-hv-lnF" secondAttribute="top" constant="11" id="beF-QG-YsR"/>
+                            <constraint firstItem="S9J-3d-y7z" firstAttribute="leading" secondItem="5I0-Rj-488" secondAttribute="trailing" constant="5" id="jJa-Z4-zDs"/>
+                            <constraint firstItem="5I0-Rj-488" firstAttribute="top" secondItem="9fy-hv-lnF" secondAttribute="top" constant="5" id="jsb-pN-agr"/>
+                            <constraint firstItem="5I0-Rj-488" firstAttribute="leading" secondItem="9fy-hv-lnF" secondAttribute="leading" constant="5" id="vL5-XM-TYv"/>
+                            <constraint firstAttribute="trailing" secondItem="kV0-i9-MJs" secondAttribute="trailing" constant="18" id="xB7-95-4m0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9fy-hv-lnF" firstAttribute="top" secondItem="j3V-Fd-shj" secondAttribute="top" id="KND-H1-cHa"/>
+                    <constraint firstAttribute="bottom" secondItem="9fy-hv-lnF" secondAttribute="bottom" constant="0.5" id="jYk-ki-d4j"/>
+                    <constraint firstItem="9fy-hv-lnF" firstAttribute="leading" secondItem="j3V-Fd-shj" secondAttribute="leading" id="s0h-lS-neS"/>
+                    <constraint firstAttribute="trailing" secondItem="9fy-hv-lnF" secondAttribute="trailing" id="sQL-YJ-eMd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="cardLable" destination="Xg2-nk-4RA" id="11g-iO-EnB"/>
+                <outlet property="collectionLable" destination="kV0-i9-MJs" id="OQS-V4-UJJ"/>
+                <outlet property="contentLable" destination="tiv-jF-3zs" id="k2j-C8-KyE"/>
+                <outlet property="headImageView" destination="5I0-Rj-488" id="Sqx-W7-2J1"/>
+                <outlet property="titleLable" destination="S9J-3d-y7z" id="F6D-Zi-Hzq"/>
+            </connections>
+            <point key="canvasLocation" x="146" y="228.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="XTHomePageLikeAndHateCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="103" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="103" height="90"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPP-9E-W72">
+                        <rect key="frame" x="0.0" y="0.0" width="103" height="90"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bD6-64-q1F">
+                                <rect key="frame" x="19" y="3" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="3rA-kQ-exY"/>
+                                    <constraint firstAttribute="height" constant="65" id="dr1-nl-29W"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="body" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bBo-do-jYk">
+                                <rect key="frame" x="6" y="73" width="90" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="MIv-Iu-ZkV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raJ-qN-ZIj">
+                                <rect key="frame" x="58" y="-6" width="35" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="KDe-vK-Icy"/>
+                                    <constraint firstAttribute="width" constant="35" id="tf6-0f-mlm"/>
+                                </constraints>
+                                <state key="normal" image="xt_like_hate_cancel_p">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="removeClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="VOK-mt-7lu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bD6-64-q1F" firstAttribute="top" secondItem="raJ-qN-ZIj" secondAttribute="top" constant="9" id="Efm-LY-g6U"/>
+                            <constraint firstAttribute="centerX" secondItem="bD6-64-q1F" secondAttribute="centerX" id="I7f-Rt-ooR"/>
+                            <constraint firstAttribute="trailing" secondItem="bBo-do-jYk" secondAttribute="trailing" constant="7" id="XBP-B0-58u"/>
+                            <constraint firstItem="bD6-64-q1F" firstAttribute="top" secondItem="jPP-9E-W72" secondAttribute="top" constant="3" id="dfs-qq-40S"/>
+                            <constraint firstItem="bBo-do-jYk" firstAttribute="leading" secondItem="jPP-9E-W72" secondAttribute="leading" constant="6" id="ie7-8T-zkN"/>
+                            <constraint firstItem="bD6-64-q1F" firstAttribute="trailing" secondItem="raJ-qN-ZIj" secondAttribute="trailing" constant="-9" id="nFv-qi-n4e"/>
+                            <constraint firstItem="bBo-do-jYk" firstAttribute="top" secondItem="bD6-64-q1F" secondAttribute="bottom" constant="5" id="xif-Ve-PMm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jPP-9E-W72" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4Sp-vC-m7G"/>
+                <constraint firstAttribute="bottom" secondItem="jPP-9E-W72" secondAttribute="bottom" id="cY1-0t-HhI"/>
+                <constraint firstItem="jPP-9E-W72" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dNt-yZ-JWb"/>
+                <constraint firstAttribute="trailing" secondItem="jPP-9E-W72" secondAttribute="trailing" id="qcG-nI-jq7"/>
+            </constraints>
+            <size key="customSize" width="111" height="111"/>
+            <connections>
+                <outlet property="headerImageView" destination="bD6-64-q1F" id="xDS-il-Eqj"/>
+                <outlet property="removeButton" destination="raJ-qN-ZIj" id="btv-Gc-8Hf"/>
+                <outlet property="titleLabel" destination="bBo-do-jYk" id="53B-l6-sHk"/>
+            </connections>
+            <point key="canvasLocation" x="406.5" y="292"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="xt_like_hate_cancel_p" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

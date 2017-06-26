@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XTBigImageViewController">
+            <connections>
+                <outlet property="collectionView" destination="9ww-S0-DNs" id="Drb-VV-JWM"/>
+                <outlet property="downLoadBtn" destination="qzj-CB-EaL" id="Cd6-NB-AWZ"/>
+                <outlet property="originalBtn" destination="LVd-Xw-jp3" id="OCa-2f-MWo"/>
+                <outlet property="pageLabel" destination="wSm-Ro-l8N" id="iGS-JN-wTa"/>
+                <outlet property="view" destination="LWW-CF-pLG" id="ke4-5u-ffP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LWW-CF-pLG">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9ww-S0-DNs">
+                    <rect key="frame" x="0.0" y="0.0" width="330" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="zZ2-JY-c1w">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Su5-5U-jwJ"/>
+                        <outlet property="delegate" destination="-1" id="R01-Sl-LQG"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="onm-aA-2dW">
+                    <rect key="frame" x="0.0" y="503" width="320" height="65"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVd-Xw-jp3">
+                            <rect key="frame" x="8" y="0.0" width="40" height="40"/>
+                            <state key="normal" backgroundImage="originalImage_n">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="originalImage_h"/>
+                            <connections>
+                                <action selector="originalImageBtnClick:" destination="-1" eventType="touchUpInside" id="hJm-mb-Xej"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzj-CB-EaL">
+                            <rect key="frame" x="272" y="0.0" width="40" height="40"/>
+                            <state key="normal" backgroundImage="originalImageDownLoad_n">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="originalImageDownLoad_n"/>
+                            <connections>
+                                <action selector="downLoadBtnClick:" destination="-1" eventType="touchUpInside" id="5OV-WT-yed"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(0/0)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSm-Ro-l8N">
+                            <rect key="frame" x="148" y="12" width="25" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="wSm-Ro-l8N" secondAttribute="centerX" id="6Nk-2F-jXC"/>
+                        <constraint firstAttribute="trailing" secondItem="qzj-CB-EaL" secondAttribute="trailing" constant="8" id="FZ6-qN-x5Y"/>
+                        <constraint firstAttribute="height" constant="65" id="ORf-WV-OvP"/>
+                        <constraint firstItem="qzj-CB-EaL" firstAttribute="top" secondItem="onm-aA-2dW" secondAttribute="top" id="fbJ-ak-VRe"/>
+                        <constraint firstItem="wSm-Ro-l8N" firstAttribute="top" secondItem="onm-aA-2dW" secondAttribute="top" constant="12" id="gcT-LX-omg"/>
+                        <constraint firstItem="LVd-Xw-jp3" firstAttribute="leading" secondItem="onm-aA-2dW" secondAttribute="leading" constant="8" id="hP3-B6-XCX"/>
+                        <constraint firstItem="LVd-Xw-jp3" firstAttribute="top" secondItem="onm-aA-2dW" secondAttribute="top" id="oK0-SW-twY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9ww-S0-DNs" secondAttribute="trailing" constant="-10" id="62o-oU-cWk"/>
+                <constraint firstAttribute="trailing" secondItem="onm-aA-2dW" secondAttribute="trailing" id="Gbv-mA-x5e"/>
+                <constraint firstItem="9ww-S0-DNs" firstAttribute="top" secondItem="LWW-CF-pLG" secondAttribute="top" id="HAL-wC-Rtx"/>
+                <constraint firstItem="9ww-S0-DNs" firstAttribute="leading" secondItem="LWW-CF-pLG" secondAttribute="leading" id="HGB-RZ-5hF"/>
+                <constraint firstItem="onm-aA-2dW" firstAttribute="leading" secondItem="LWW-CF-pLG" secondAttribute="leading" id="Obq-Lc-mQb"/>
+                <constraint firstAttribute="bottom" secondItem="9ww-S0-DNs" secondAttribute="bottom" id="hpj-PN-qLS"/>
+                <constraint firstAttribute="bottom" secondItem="onm-aA-2dW" secondAttribute="bottom" id="mDD-Gk-2EO"/>
+            </constraints>
+            <point key="canvasLocation" x="403" y="357"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="originalImageDownLoad_n" width="40" height="40"/>
+        <image name="originalImage_h" width="40" height="40"/>
+        <image name="originalImage_n" width="40" height="40"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

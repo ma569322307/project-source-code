@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="XTTopicListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lcW-Nm-RXQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在最美好的时光遇见最美好的你" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRF-JV-Fy4">
+                                <rect key="frame" x="77" y="31" width="182" height="14.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14.5" id="WKM-vH-hHi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在最美好的时光遇见最美好的你" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hl8-1S-Ym6">
+                        <rect key="frame" x="77" y="11" width="198" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="J4b-9N-u6v"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="热度值：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPe-Jb-Z5H">
+                        <rect key="frame" x="78" y="47" width="182" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="BgY-ji-L7N"/>
+                            <constraint firstAttribute="width" constant="182" id="Bmb-aF-iMz"/>
+                            <constraint firstAttribute="height" constant="20" id="fhP-sy-mf2"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="iid-X4-nds"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxV-UI-H8N">
+                        <rect key="frame" x="276" y="18" width="40" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="BqM-Ac-OcZ"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="HotLicks_collect">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="FavoritesButton:and:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Paf-Yr-UVW"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomePage_headImage_default" translatesAutoresizingMaskIntoConstraints="NO" id="s94-yx-7gU">
+                        <rect key="frame" x="5" y="5" width="67" height="67"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="67" id="kfD-rE-b5i"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sPe-Jb-Z5H" firstAttribute="leading" secondItem="s94-yx-7gU" secondAttribute="trailing" constant="6" id="5fO-qh-geg"/>
+                    <constraint firstItem="hl8-1S-Ym6" firstAttribute="leading" secondItem="s94-yx-7gU" secondAttribute="trailing" constant="5" id="IdQ-6o-q3O"/>
+                    <constraint firstItem="lcW-Nm-RXQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="LZm-jI-QgM"/>
+                    <constraint firstItem="xxV-UI-H8N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="QPV-oh-Tbv"/>
+                    <constraint firstAttribute="bottom" secondItem="lcW-Nm-RXQ" secondAttribute="bottom" constant="0.5" id="S92-1o-rxF"/>
+                    <constraint firstAttribute="trailing" secondItem="lcW-Nm-RXQ" secondAttribute="trailing" id="Sck-7E-eM6"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xxV-UI-H8N" secondAttribute="trailing" constant="-4" id="Vk6-Xc-p2N"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sPe-Jb-Z5H" secondAttribute="bottom" constant="1.5" id="bcQ-cT-yLe"/>
+                    <constraint firstItem="hl8-1S-Ym6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="cOC-4u-TTW"/>
+                    <constraint firstItem="iRF-JV-Fy4" firstAttribute="top" secondItem="hl8-1S-Ym6" secondAttribute="bottom" constant="5" id="eBC-XZ-d0i"/>
+                    <constraint firstAttribute="bottom" secondItem="s94-yx-7gU" secondAttribute="bottom" constant="4.5" id="k5K-to-Gg0"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="xxV-UI-H8N" secondAttribute="bottom" constant="11" id="lOs-hO-8qA"/>
+                    <constraint firstItem="xxV-UI-H8N" firstAttribute="leading" secondItem="iRF-JV-Fy4" secondAttribute="trailing" constant="17" id="mTa-0N-bTe"/>
+                    <constraint firstItem="s94-yx-7gU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="ndw-Hx-Gtp"/>
+                    <constraint firstItem="s94-yx-7gU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="oac-JN-Xtz"/>
+                    <constraint firstItem="iRF-JV-Fy4" firstAttribute="leading" secondItem="s94-yx-7gU" secondAttribute="trailing" constant="5" id="oog-Zw-2gc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hl8-1S-Ym6" secondAttribute="trailing" constant="37" id="sU1-sx-wEf"/>
+                    <constraint firstItem="lcW-Nm-RXQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uqL-jp-Bix"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="FavoritesButton" destination="xxV-UI-H8N" id="czG-7C-IFg"/>
+                <outlet property="HeadImageView" destination="s94-yx-7gU" id="kCM-wP-taI"/>
+                <outlet property="contentLable" destination="iRF-JV-Fy4" id="CUL-pr-SHx"/>
+                <outlet property="hotValueLable" destination="sPe-Jb-Z5H" id="vFe-Zp-t6a"/>
+                <outlet property="titleLable" destination="hl8-1S-Ym6" id="8aR-n1-m93"/>
+                <outlet property="topConstraint" destination="QPV-oh-Tbv" id="ipx-g0-FxX"/>
+            </connections>
+            <point key="canvasLocation" x="-609" y="167.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HomePage_headImage_default" width="99" height="99"/>
+        <image name="HotLicks_collect" width="40" height="40"/>
+    </resources>
+</document>

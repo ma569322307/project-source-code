@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XTSearchIndexViewController">
+            <connections>
+                <outlet property="clearButton" destination="IKp-1o-PYc" id="pz9-uC-TEt"/>
+                <outlet property="contentView" destination="bMc-ig-VM2" id="z38-EK-9mi"/>
+                <outlet property="dropdownButton" destination="kbD-0z-dJV" id="8CM-J9-FNW"/>
+                <outlet property="searchBarView" destination="N8l-TU-nxm" id="NVD-Xo-qOI"/>
+                <outlet property="searchTextfield" destination="hMo-90-hWE" id="z25-Ii-i3X"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bMc-ig-VM2">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bMc-ig-VM2" secondAttribute="bottom" id="AUK-Jg-wkM"/>
+                <constraint firstAttribute="trailing" secondItem="bMc-ig-VM2" secondAttribute="trailing" id="Hd0-Of-imN"/>
+                <constraint firstItem="bMc-ig-VM2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Wuu-d9-WSX"/>
+                <constraint firstItem="bMc-ig-VM2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xwb-Oj-2wk"/>
+            </constraints>
+            <point key="canvasLocation" x="74" y="341"/>
+        </view>
+        <view contentMode="scaleToFill" id="N8l-TU-nxm">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_input_border" translatesAutoresizingMaskIntoConstraints="NO" id="zQS-K4-oSU">
+                    <rect key="frame" x="6" y="3" width="270" height="38"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="要搜点什么......" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hMo-90-hWE">
+                    <rect key="frame" x="65" y="7" width="175" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="WTl-qK-IeX"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skZ-Ay-Zuy">
+                    <rect key="frame" x="280" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Ery-b9-9eq"/>
+                    </constraints>
+                    <state key="normal" image="search_close">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="closeButtonClick:" destination="-1" eventType="touchUpInside" id="6fu-Eb-D3k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbD-0z-dJV">
+                    <rect key="frame" x="11" y="0.0" width="52" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="52" id="pTr-LY-LxA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="titleEdgeInsets" minX="-50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="27" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="全部" image="search_dropdown_normal">
+                        <color key="titleColor" red="0.66800820707070707" green="0.66800820707070707" blue="0.66800820707070707" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="search_dropdown_highlight"/>
+                    <connections>
+                        <action selector="dropDownButtonClick:" destination="-1" eventType="touchUpInside" id="ceE-pH-tMU"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKp-1o-PYc">
+                    <rect key="frame" x="237" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="4RA-RE-ueK"/>
+                    </constraints>
+                    <state key="normal" image="search_delete_normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="search_delete_highlight"/>
+                    <connections>
+                        <action selector="clearButtonClick:" destination="-1" eventType="touchUpInside" id="KA9-jh-Env"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kbD-0z-dJV" firstAttribute="leading" secondItem="N8l-TU-nxm" secondAttribute="leading" constant="11" id="AKA-oE-wvZ"/>
+                <constraint firstAttribute="bottom" secondItem="IKp-1o-PYc" secondAttribute="bottom" constant="2" id="HkN-XZ-yQC"/>
+                <constraint firstAttribute="trailing" secondItem="skZ-Ay-Zuy" secondAttribute="trailing" id="QPc-J7-ImX"/>
+                <constraint firstItem="hMo-90-hWE" firstAttribute="leading" secondItem="kbD-0z-dJV" secondAttribute="trailing" constant="2" id="Skd-hm-AId"/>
+                <constraint firstItem="zQS-K4-oSU" firstAttribute="leading" secondItem="N8l-TU-nxm" secondAttribute="leading" constant="6" id="W3B-Vs-Wsh"/>
+                <constraint firstAttribute="bottom" secondItem="kbD-0z-dJV" secondAttribute="bottom" id="WU6-oN-BqN"/>
+                <constraint firstItem="IKp-1o-PYc" firstAttribute="leading" secondItem="hMo-90-hWE" secondAttribute="trailing" constant="-3" id="aUH-28-uLx"/>
+                <constraint firstAttribute="bottom" secondItem="zQS-K4-oSU" secondAttribute="bottom" constant="3" id="cZz-KV-mcB"/>
+                <constraint firstAttribute="trailing" secondItem="zQS-K4-oSU" secondAttribute="trailing" constant="44" id="fu0-9A-LCN"/>
+                <constraint firstItem="IKp-1o-PYc" firstAttribute="top" secondItem="N8l-TU-nxm" secondAttribute="top" constant="2" id="ggj-3N-DmL"/>
+                <constraint firstItem="hMo-90-hWE" firstAttribute="top" secondItem="N8l-TU-nxm" secondAttribute="top" constant="7" id="img-0d-kL0"/>
+                <constraint firstAttribute="bottom" secondItem="hMo-90-hWE" secondAttribute="bottom" constant="7" id="o0w-Fd-CZi"/>
+                <constraint firstItem="zQS-K4-oSU" firstAttribute="top" secondItem="N8l-TU-nxm" secondAttribute="top" constant="3" id="oGj-no-OYY"/>
+                <constraint firstItem="skZ-Ay-Zuy" firstAttribute="top" secondItem="N8l-TU-nxm" secondAttribute="top" constant="2" id="rk0-dS-oNl"/>
+                <constraint firstAttribute="trailing" secondItem="IKp-1o-PYc" secondAttribute="trailing" constant="43" id="ucD-YC-uyH"/>
+                <constraint firstItem="kbD-0z-dJV" firstAttribute="top" secondItem="N8l-TU-nxm" secondAttribute="top" id="vIV-Vc-5R9"/>
+                <constraint firstAttribute="bottom" secondItem="skZ-Ay-Zuy" secondAttribute="bottom" constant="2" id="vZM-2x-3XQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="439" y="79"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="search_close" width="40" height="40"/>
+        <image name="search_delete_highlight" width="25" height="25"/>
+        <image name="search_delete_normal" width="25" height="25"/>
+        <image name="search_dropdown_highlight" width="25" height="25"/>
+        <image name="search_dropdown_normal" width="25" height="25"/>
+        <image name="search_input_border" width="308" height="38"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

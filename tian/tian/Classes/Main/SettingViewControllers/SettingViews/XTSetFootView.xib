@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="13F1096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="VQu-Lk-JIB" customClass="XTSetFootView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aoj-Wk-5gH">
+                    <rect key="frame" x="5" y="0.0" width="365" height="44"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="退出当前账号" backgroundImage="set_logout">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" title="退出当前账号" backgroundImage="set_logout_sel"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="VQu-Lk-JIB" eventType="touchUpInside" id="uQO-9I-2us"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Aoj-Wk-5gH" firstAttribute="top" secondItem="VQu-Lk-JIB" secondAttribute="top" id="DHA-bW-xCr"/>
+                <constraint firstAttribute="trailing" secondItem="Aoj-Wk-5gH" secondAttribute="trailing" constant="5" id="GFE-TZ-fOL"/>
+                <constraint firstAttribute="bottom" secondItem="Aoj-Wk-5gH" secondAttribute="bottom" id="e8T-lL-pSF"/>
+                <constraint firstItem="Aoj-Wk-5gH" firstAttribute="leading" secondItem="VQu-Lk-JIB" secondAttribute="leading" constant="5" id="yg6-BP-O4K"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="logoutBtn" destination="Aoj-Wk-5gH" id="gN2-Ow-bX0"/>
+            </connections>
+            <point key="canvasLocation" x="345.5" y="409"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="set_logout" width="362" height="44"/>
+        <image name="set_logout_sel" width="362" height="44"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

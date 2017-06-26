@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XTInputView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SNi-dH-Lfw" customClass="XTTextView">
+                    <rect key="frame" x="8" y="8" width="254" height="37"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="4Rb-3K-URy"/>
+                    </connections>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jp9-KO-Fgw">
+                    <rect key="frame" x="272" y="7" width="40" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="发送" backgroundImage="sc_sendBtn">
+                        <color key="titleColor" red="0.99607843139999996" green="0.89411764709999997" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="postBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="daP-Yd-Omn"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.99607843137254903" green="0.89411764705882346" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Jp9-KO-Fgw" secondAttribute="trailing" constant="8" id="1Pc-wb-RfI"/>
+                <constraint firstItem="SNi-dH-Lfw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="FP7-dX-VA1"/>
+                <constraint firstAttribute="centerY" secondItem="Jp9-KO-Fgw" secondAttribute="centerY" id="VZb-XG-zra"/>
+                <constraint firstAttribute="bottom" secondItem="SNi-dH-Lfw" secondAttribute="bottom" constant="8" id="WtR-mh-Blz"/>
+                <constraint firstItem="SNi-dH-Lfw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="a5n-4P-krv"/>
+                <constraint firstAttribute="trailing" secondItem="SNi-dH-Lfw" secondAttribute="trailing" constant="58" id="uFx-bH-nNj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="postBtn" destination="Jp9-KO-Fgw" id="YFe-Cg-sUb"/>
+                <outlet property="textView" destination="SNi-dH-Lfw" id="jsR-XG-bDf"/>
+            </connections>
+            <point key="canvasLocation" x="7" y="226.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sc_sendBtn" width="40" height="40"/>
+    </resources>
+</document>

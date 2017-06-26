@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XTAlbumsOfPicView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bjl-nS-gaq">
+                    <rect key="frame" x="5" y="5" width="54" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Bjl-nS-gaq" secondAttribute="height" multiplier="1:1" id="mdK-mF-xzw"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="exo在北京" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qi5-HB-BDA">
+                    <rect key="frame" x="67" y="15" width="300" height="15"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <color key="textColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="流苏的。。。" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXD-1O-dKY">
+                    <rect key="frame" x="67" y="36" width="300" height="15"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <color key="textColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xXD-1O-dKY" firstAttribute="top" secondItem="qi5-HB-BDA" secondAttribute="bottom" constant="6" id="9yE-Na-Oa0"/>
+                <constraint firstItem="xXD-1O-dKY" firstAttribute="leading" secondItem="Bjl-nS-gaq" secondAttribute="trailing" constant="8" id="Fx3-YA-ADP"/>
+                <constraint firstItem="Bjl-nS-gaq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="GCi-Ky-S5c"/>
+                <constraint firstItem="Bjl-nS-gaq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="Hm4-e1-7oI"/>
+                <constraint firstAttribute="trailing" secondItem="xXD-1O-dKY" secondAttribute="trailing" constant="8" id="Po7-Fx-FZi"/>
+                <constraint firstAttribute="bottom" secondItem="Bjl-nS-gaq" secondAttribute="bottom" constant="5" id="Rw8-J5-0c0"/>
+                <constraint firstItem="qi5-HB-BDA" firstAttribute="leading" secondItem="Bjl-nS-gaq" secondAttribute="trailing" constant="8" id="doQ-0v-0il"/>
+                <constraint firstAttribute="trailing" secondItem="qi5-HB-BDA" secondAttribute="trailing" constant="8" id="hD0-XZ-xcE"/>
+                <constraint firstItem="Bjl-nS-gaq" firstAttribute="top" secondItem="qi5-HB-BDA" secondAttribute="top" constant="-10" id="xEF-mj-Ghp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentLabel" destination="xXD-1O-dKY" id="oaF-cU-Vrd"/>
+                <outlet property="imageView" destination="Bjl-nS-gaq" id="ShX-Bv-rCZ"/>
+                <outlet property="titleLabel" destination="qi5-HB-BDA" id="hdc-iB-uxJ"/>
+            </connections>
+            <point key="canvasLocation" x="-97.5" y="216"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

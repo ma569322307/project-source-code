@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>本命</key>
+	<string>icon_bm</string>
+	<key>属性</key>
+	<string>icon_sx</string>
+	<key>雷区</key>
+	<string>icon_lq</string>
+	<key>技能</key>
+	<string>icon_jn</string>
+	<key>男神</key>
+	<string>icon_ns</string>
+	<key>书籍</key>
+	<string>icon_sj</string>
+	<key>音符</key>
+	<string>icon_yf</string>
+	<key>职业</key>
+	<string>icon_zy</string>
+	<key>电影</key>
+	<string>icon_dy</string>
+	<key>剧集</key>
+	<string>icon_jj</string>
+</dict>
+</plist>
