@@ -179,23 +179,6 @@
 		898865B61B8455E1007054D4 /* XTTabBarSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 898865AD1B8455E1007054D4 /* XTTabBarSelectedView.m */; };
 		898865B71B8455E1007054D4 /* XTWebVIewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898865AF1B8455E1007054D4 /* XTWebVIewViewController.m */; };
 		898865B81B8455E1007054D4 /* XTWebVIewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 898865B01B8455E1007054D4 /* XTWebVIewViewController.xib */; };
-		898865D61B845636007054D4 /* UMFeedbackLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 898865BB1B845636007054D4 /* UMFeedbackLocalizable.strings */; };
-		898865D71B845636007054D4 /* libUMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 898865BD1B845636007054D4 /* libUMFeedback.a */; };
-		898865D81B845636007054D4 /* bubble_min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865BF1B845636007054D4 /* bubble_min@2x.png */; };
-		898865D91B845636007054D4 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865C01B845636007054D4 /* cancel@2x.png */; };
-		898865DA1B845636007054D4 /* microphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865C11B845636007054D4 /* microphone@2x.png */; };
-		898865DB1B845636007054D4 /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865C21B845636007054D4 /* save@2x.png */; };
-		898865DC1B845636007054D4 /* ToolViewInputText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865C31B845636007054D4 /* ToolViewInputText@2x.png */; };
-		898865DD1B845636007054D4 /* ToolViewInputTextHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865C41B845636007054D4 /* ToolViewInputTextHL@2x.png */; };
-		898865E01B845636007054D4 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865C71B845636007054D4 /* umeng_fb_audio_dialog_cancel@2x.png */; };
-		898865E11B845636007054D4 /* umeng_fb_audio_dialog_content@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865C81B845636007054D4 /* umeng_fb_audio_dialog_content@2x.png */; };
-		898865E21B845636007054D4 /* umeng_fb_audio_play_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865C91B845636007054D4 /* umeng_fb_audio_play_01@2x.png */; };
-		898865E31B845636007054D4 /* umeng_fb_audio_play_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865CA1B845636007054D4 /* umeng_fb_audio_play_02@2x.png */; };
-		898865E41B845636007054D4 /* umeng_fb_audio_play_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865CB1B845636007054D4 /* umeng_fb_audio_play_03@2x.png */; };
-		898865E51B845636007054D4 /* umeng_fb_audio_play_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 898865CC1B845636007054D4 /* umeng_fb_audio_play_default@2x.png */; };
-		898865E61B845636007054D4 /* libUMOpus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 898865CF1B845636007054D4 /* libUMOpus.a */; };
-		898865E71B845636007054D4 /* XTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 898865D41B845636007054D4 /* XTPickerView.m */; };
-		898865E81B845636007054D4 /* XTPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 898865D51B845636007054D4 /* XTPickerView.xib */; };
 		898865EB1B8456A0007054D4 /* XTLeftRightSwipeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898865EA1B8456A0007054D4 /* XTLeftRightSwipeBaseViewController.m */; };
 		898865F41B8456D6007054D4 /* XTPhotoDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898865ED1B8456D6007054D4 /* XTPhotoDisplayViewController.m */; };
 		898865F51B8456D6007054D4 /* XTPostTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898865EF1B8456D6007054D4 /* XTPostTopicViewController.m */; };
@@ -558,6 +541,25 @@
 		96FB88141B3BB3A900602CE6 /* XTUploadSingleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB88131B3BB3A900602CE6 /* XTUploadSingleModel.m */; };
 		96FB881C1B3BF2CC00602CE6 /* XTUploadStickerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB881B1B3BF2CC00602CE6 /* XTUploadStickerInfo.m */; };
 		96FB88281B3E50FB00602CE6 /* XTLogos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96FB88271B3E50FB00602CE6 /* XTLogos.plist */; };
+		CD6160111F18AEF5001F6899 /* UMFeedbackLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD615FF91F18AEF5001F6899 /* UMFeedbackLocalizable.strings */; };
+		CD6160121F18AEF5001F6899 /* libUMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD615FFB1F18AEF5001F6899 /* libUMFeedback.a */; };
+		CD6160131F18AEF5001F6899 /* bubble_min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD615FFD1F18AEF5001F6899 /* bubble_min@2x.png */; };
+		CD6160141F18AEF5001F6899 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD615FFE1F18AEF5001F6899 /* cancel@2x.png */; };
+		CD6160151F18AEF5001F6899 /* microphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD615FFF1F18AEF5001F6899 /* microphone@2x.png */; };
+		CD6160161F18AEF5001F6899 /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160001F18AEF5001F6899 /* save@2x.png */; };
+		CD6160171F18AEF5001F6899 /* ToolViewInputText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160011F18AEF5001F6899 /* ToolViewInputText@2x.png */; };
+		CD6160181F18AEF5001F6899 /* ToolViewInputTextHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160021F18AEF5001F6899 /* ToolViewInputTextHL@2x.png */; };
+		CD6160191F18AEF5001F6899 /* ToolViewInputVoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160031F18AEF5001F6899 /* ToolViewInputVoice@2x.png */; };
+		CD61601A1F18AEF5001F6899 /* ToolViewInputVoiceHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160041F18AEF5001F6899 /* ToolViewInputVoiceHL@2x.png */; };
+		CD61601B1F18AEF5001F6899 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160051F18AEF5001F6899 /* umeng_fb_audio_dialog_cancel@2x.png */; };
+		CD61601C1F18AEF5001F6899 /* umeng_fb_audio_dialog_content@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160061F18AEF5001F6899 /* umeng_fb_audio_dialog_content@2x.png */; };
+		CD61601D1F18AEF5001F6899 /* umeng_fb_audio_play_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160071F18AEF5001F6899 /* umeng_fb_audio_play_01@2x.png */; };
+		CD61601E1F18AEF5001F6899 /* umeng_fb_audio_play_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160081F18AEF5001F6899 /* umeng_fb_audio_play_02@2x.png */; };
+		CD61601F1F18AEF5001F6899 /* umeng_fb_audio_play_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6160091F18AEF5001F6899 /* umeng_fb_audio_play_03@2x.png */; };
+		CD6160201F18AEF5001F6899 /* umeng_fb_audio_play_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD61600A1F18AEF5001F6899 /* umeng_fb_audio_play_default@2x.png */; };
+		CD6160211F18AEF5001F6899 /* libUMOpus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD61600D1F18AEF5001F6899 /* libUMOpus.a */; };
+		CD6160251F18AFF0001F6899 /* XTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6160231F18AFF0001F6899 /* XTPickerView.m */; };
+		CD6160261F18AFF0001F6899 /* XTPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6160241F18AFF0001F6899 /* XTPickerView.xib */; };
 		CDBBE8881B7314EE0039FF93 /* postCountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBBE8871B7314EE0039FF93 /* postCountModel.m */; };
 /* End PBXBuildFile section */
 
@@ -896,28 +898,6 @@
 		898865AE1B8455E1007054D4 /* XTWebVIewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTWebVIewViewController.h; sourceTree = "<group>"; };
 		898865AF1B8455E1007054D4 /* XTWebVIewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTWebVIewViewController.m; sourceTree = "<group>"; };
 		898865B01B8455E1007054D4 /* XTWebVIewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTWebVIewViewController.xib; sourceTree = "<group>"; };
-		898865BC1B845636007054D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/UMFeedbackLocalizable.strings; sourceTree = "<group>"; };
-		898865BD1B845636007054D4 /* libUMFeedback.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMFeedback.a; sourceTree = "<group>"; };
-		898865BF1B845636007054D4 /* bubble_min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min@2x.png"; sourceTree = "<group>"; };
-		898865C01B845636007054D4 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
-		898865C11B845636007054D4 /* microphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone@2x.png"; sourceTree = "<group>"; };
-		898865C21B845636007054D4 /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
-		898865C31B845636007054D4 /* ToolViewInputText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputText@2x.png"; sourceTree = "<group>"; };
-		898865C41B845636007054D4 /* ToolViewInputTextHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputTextHL@2x.png"; sourceTree = "<group>"; };
-		898865C71B845636007054D4 /* umeng_fb_audio_dialog_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_dialog_cancel@2x.png"; sourceTree = "<group>"; };
-		898865C81B845636007054D4 /* umeng_fb_audio_dialog_content@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_dialog_content@2x.png"; sourceTree = "<group>"; };
-		898865C91B845636007054D4 /* umeng_fb_audio_play_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_01@2x.png"; sourceTree = "<group>"; };
-		898865CA1B845636007054D4 /* umeng_fb_audio_play_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_02@2x.png"; sourceTree = "<group>"; };
-		898865CB1B845636007054D4 /* umeng_fb_audio_play_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_03@2x.png"; sourceTree = "<group>"; };
-		898865CC1B845636007054D4 /* umeng_fb_audio_play_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_default@2x.png"; sourceTree = "<group>"; };
-		898865CD1B845636007054D4 /* UMFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFeedback.h; sourceTree = "<group>"; };
-		898865CF1B845636007054D4 /* libUMOpus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMOpus.a; sourceTree = "<group>"; };
-		898865D01B845636007054D4 /* UMOpus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMOpus.h; sourceTree = "<group>"; };
-		898865D11B845636007054D4 /* UMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRecorder.h; sourceTree = "<group>"; };
-		898865D21B845636007054D4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMFeedbackLocalizable.strings"; sourceTree = "<group>"; };
-		898865D31B845636007054D4 /* XTPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPickerView.h; sourceTree = "<group>"; };
-		898865D41B845636007054D4 /* XTPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPickerView.m; sourceTree = "<group>"; };
-		898865D51B845636007054D4 /* XTPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTPickerView.xib; sourceTree = "<group>"; };
 		898865E91B8456A0007054D4 /* XTLeftRightSwipeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLeftRightSwipeBaseViewController.h; sourceTree = "<group>"; };
 		898865EA1B8456A0007054D4 /* XTLeftRightSwipeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLeftRightSwipeBaseViewController.m; sourceTree = "<group>"; };
 		898865EC1B8456D6007054D4 /* XTPhotoDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPhotoDisplayViewController.h; sourceTree = "<group>"; };
@@ -1545,6 +1525,30 @@
 		96FB881A1B3BF2CC00602CE6 /* XTUploadStickerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTUploadStickerInfo.h; sourceTree = "<group>"; };
 		96FB881B1B3BF2CC00602CE6 /* XTUploadStickerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTUploadStickerInfo.m; sourceTree = "<group>"; };
 		96FB88271B3E50FB00602CE6 /* XTLogos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XTLogos.plist; sourceTree = "<group>"; };
+		CD615FFA1F18AEF5001F6899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/UMFeedbackLocalizable.strings; sourceTree = "<group>"; };
+		CD615FFB1F18AEF5001F6899 /* libUMFeedback.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMFeedback.a; sourceTree = "<group>"; };
+		CD615FFD1F18AEF5001F6899 /* bubble_min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min@2x.png"; sourceTree = "<group>"; };
+		CD615FFE1F18AEF5001F6899 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		CD615FFF1F18AEF5001F6899 /* microphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone@2x.png"; sourceTree = "<group>"; };
+		CD6160001F18AEF5001F6899 /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
+		CD6160011F18AEF5001F6899 /* ToolViewInputText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputText@2x.png"; sourceTree = "<group>"; };
+		CD6160021F18AEF5001F6899 /* ToolViewInputTextHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputTextHL@2x.png"; sourceTree = "<group>"; };
+		CD6160031F18AEF5001F6899 /* ToolViewInputVoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputVoice@2x.png"; sourceTree = "<group>"; };
+		CD6160041F18AEF5001F6899 /* ToolViewInputVoiceHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToolViewInputVoiceHL@2x.png"; sourceTree = "<group>"; };
+		CD6160051F18AEF5001F6899 /* umeng_fb_audio_dialog_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_dialog_cancel@2x.png"; sourceTree = "<group>"; };
+		CD6160061F18AEF5001F6899 /* umeng_fb_audio_dialog_content@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_dialog_content@2x.png"; sourceTree = "<group>"; };
+		CD6160071F18AEF5001F6899 /* umeng_fb_audio_play_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_01@2x.png"; sourceTree = "<group>"; };
+		CD6160081F18AEF5001F6899 /* umeng_fb_audio_play_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_02@2x.png"; sourceTree = "<group>"; };
+		CD6160091F18AEF5001F6899 /* umeng_fb_audio_play_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_03@2x.png"; sourceTree = "<group>"; };
+		CD61600A1F18AEF5001F6899 /* umeng_fb_audio_play_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "umeng_fb_audio_play_default@2x.png"; sourceTree = "<group>"; };
+		CD61600B1F18AEF5001F6899 /* UMFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFeedback.h; sourceTree = "<group>"; };
+		CD61600D1F18AEF5001F6899 /* libUMOpus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMOpus.a; sourceTree = "<group>"; };
+		CD61600E1F18AEF5001F6899 /* UMOpus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMOpus.h; sourceTree = "<group>"; };
+		CD61600F1F18AEF5001F6899 /* UMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMRecorder.h; sourceTree = "<group>"; };
+		CD6160101F18AEF5001F6899 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMFeedbackLocalizable.strings"; sourceTree = "<group>"; };
+		CD6160221F18AFF0001F6899 /* XTPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPickerView.h; sourceTree = "<group>"; };
+		CD6160231F18AFF0001F6899 /* XTPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPickerView.m; sourceTree = "<group>"; };
+		CD6160241F18AFF0001F6899 /* XTPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTPickerView.xib; sourceTree = "<group>"; };
 		CDBBE8861B7314EE0039FF93 /* postCountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postCountModel.h; sourceTree = "<group>"; };
 		CDBBE8871B7314EE0039FF93 /* postCountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = postCountModel.m; sourceTree = "<group>"; };
 		EA058A990301B5ED723946BB /* Pods-tian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tian/Pods-tian.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1558,11 +1562,11 @@
 				6B4CD3E21B3AD2DF00D3166A /* AssetsLibrary.framework in Frameworks */,
 				428747F71B0AE6EB005A75E9 /* libstdc++.dylib in Frameworks */,
 				428747F51B0AE6CD005A75E9 /* libz.dylib in Frameworks */,
-				898865E61B845636007054D4 /* libUMOpus.a in Frameworks */,
 				898864E91B843A14007054D4 /* libWeiboSDK.a in Frameworks */,
+				CD6160211F18AEF5001F6899 /* libUMOpus.a in Frameworks */,
 				898864ED1B843A14007054D4 /* libWeChatSDK.a in Frameworks */,
-				898865D71B845636007054D4 /* libUMFeedback.a in Frameworks */,
 				898864EB1B843A14007054D4 /* TencentOpenAPI.framework in Frameworks */,
+				CD6160121F18AEF5001F6899 /* libUMFeedback.a in Frameworks */,
 				898864B91B84398E007054D4 /* libUMFeedback.a in Frameworks */,
 				898864C81B84398E007054D4 /* libUMOpus.a in Frameworks */,
 				843EDE2FA17DC03EAE0E7321 /* libPods-tian.a in Frameworks */,
@@ -1754,6 +1758,9 @@
 		5FDD24D41AF0786A00808F96 /* tian */ = {
 			isa = PBXGroup;
 			children = (
+				CD6160221F18AFF0001F6899 /* XTPickerView.h */,
+				CD6160231F18AFF0001F6899 /* XTPickerView.m */,
+				CD6160241F18AFF0001F6899 /* XTPickerView.xib */,
 				898864291B843537007054D4 /* Classes */,
 				5FCF91941AFB44B80096A68D /* Models */,
 				8988642D1B843537007054D4 /* Network */,
@@ -1852,6 +1859,7 @@
 		8988642A1B843537007054D4 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				CD615FF71F18AEF5001F6899 /* XTPickerView */,
 				898864401B843857007054D4 /* Categories */,
 				8988643F1B843857007054D4 /* BaseControls */,
 				898864411B843857007054D4 /* Helpers */,
@@ -2266,7 +2274,6 @@
 			isa = PBXGroup;
 			children = (
 				898866001B8457C2007054D4 /* RefreshViews */,
-				898865B91B845636007054D4 /* XTPickerView */,
 				8988651B1B843D66007054D4 /* Share */,
 				898865091B843D2B007054D4 /* Prompt */,
 				898864FD1B843C99007054D4 /* YYTButton */,
@@ -2638,58 +2645,6 @@
 				898865921B845026007054D4 /* XTUserStore.m */,
 			);
 			path = UserStore;
-			sourceTree = "<group>";
-		};
-		898865B91B845636007054D4 /* XTPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				898865BA1B845636007054D4 /* UMengFeedback_SDK_2.1.1 */,
-				898865D31B845636007054D4 /* XTPickerView.h */,
-				898865D41B845636007054D4 /* XTPickerView.m */,
-				898865D51B845636007054D4 /* XTPickerView.xib */,
-			);
-			path = XTPickerView;
-			sourceTree = "<group>";
-		};
-		898865BA1B845636007054D4 /* UMengFeedback_SDK_2.1.1 */ = {
-			isa = PBXGroup;
-			children = (
-				898865BB1B845636007054D4 /* UMFeedbackLocalizable.strings */,
-				898865BD1B845636007054D4 /* libUMFeedback.a */,
-				898865BE1B845636007054D4 /* Resources */,
-				898865CD1B845636007054D4 /* UMFeedback.h */,
-				898865CE1B845636007054D4 /* UMOpus */,
-				898865D11B845636007054D4 /* UMRecorder.h */,
-			);
-			path = UMengFeedback_SDK_2.1.1;
-			sourceTree = "<group>";
-		};
-		898865BE1B845636007054D4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				898865BF1B845636007054D4 /* bubble_min@2x.png */,
-				898865C01B845636007054D4 /* cancel@2x.png */,
-				898865C11B845636007054D4 /* microphone@2x.png */,
-				898865C21B845636007054D4 /* save@2x.png */,
-				898865C31B845636007054D4 /* ToolViewInputText@2x.png */,
-				898865C41B845636007054D4 /* ToolViewInputTextHL@2x.png */,
-				898865C71B845636007054D4 /* umeng_fb_audio_dialog_cancel@2x.png */,
-				898865C81B845636007054D4 /* umeng_fb_audio_dialog_content@2x.png */,
-				898865C91B845636007054D4 /* umeng_fb_audio_play_01@2x.png */,
-				898865CA1B845636007054D4 /* umeng_fb_audio_play_02@2x.png */,
-				898865CB1B845636007054D4 /* umeng_fb_audio_play_03@2x.png */,
-				898865CC1B845636007054D4 /* umeng_fb_audio_play_default@2x.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		898865CE1B845636007054D4 /* UMOpus */ = {
-			isa = PBXGroup;
-			children = (
-				898865CF1B845636007054D4 /* libUMOpus.a */,
-				898865D01B845636007054D4 /* UMOpus.h */,
-			);
-			path = UMOpus;
 			sourceTree = "<group>";
 		};
 		898865FE1B845737007054D4 /* LoginViewControllers */ = {
@@ -3584,6 +3539,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD615FF71F18AEF5001F6899 /* XTPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CD615FF81F18AEF5001F6899 /* UMengFeedback_SDK_2.1.1 */,
+			);
+			path = XTPickerView;
+			sourceTree = "<group>";
+		};
+		CD615FF81F18AEF5001F6899 /* UMengFeedback_SDK_2.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				CD615FF91F18AEF5001F6899 /* UMFeedbackLocalizable.strings */,
+				CD615FFB1F18AEF5001F6899 /* libUMFeedback.a */,
+				CD615FFC1F18AEF5001F6899 /* Resources */,
+				CD61600B1F18AEF5001F6899 /* UMFeedback.h */,
+				CD61600C1F18AEF5001F6899 /* UMOpus */,
+				CD61600F1F18AEF5001F6899 /* UMRecorder.h */,
+			);
+			path = UMengFeedback_SDK_2.1.1;
+			sourceTree = "<group>";
+		};
+		CD615FFC1F18AEF5001F6899 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD615FFD1F18AEF5001F6899 /* bubble_min@2x.png */,
+				CD615FFE1F18AEF5001F6899 /* cancel@2x.png */,
+				CD615FFF1F18AEF5001F6899 /* microphone@2x.png */,
+				CD6160001F18AEF5001F6899 /* save@2x.png */,
+				CD6160011F18AEF5001F6899 /* ToolViewInputText@2x.png */,
+				CD6160021F18AEF5001F6899 /* ToolViewInputTextHL@2x.png */,
+				CD6160031F18AEF5001F6899 /* ToolViewInputVoice@2x.png */,
+				CD6160041F18AEF5001F6899 /* ToolViewInputVoiceHL@2x.png */,
+				CD6160051F18AEF5001F6899 /* umeng_fb_audio_dialog_cancel@2x.png */,
+				CD6160061F18AEF5001F6899 /* umeng_fb_audio_dialog_content@2x.png */,
+				CD6160071F18AEF5001F6899 /* umeng_fb_audio_play_01@2x.png */,
+				CD6160081F18AEF5001F6899 /* umeng_fb_audio_play_02@2x.png */,
+				CD6160091F18AEF5001F6899 /* umeng_fb_audio_play_03@2x.png */,
+				CD61600A1F18AEF5001F6899 /* umeng_fb_audio_play_default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD61600C1F18AEF5001F6899 /* UMOpus */ = {
+			isa = PBXGroup;
+			children = (
+				CD61600D1F18AEF5001F6899 /* libUMOpus.a */,
+				CD61600E1F18AEF5001F6899 /* UMOpus.h */,
+			);
+			path = UMOpus;
+			sourceTree = "<group>";
+		};
 		CF799330395EB026E556FECE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -3694,13 +3700,15 @@
 				96FB88281B3E50FB00602CE6 /* XTLogos.plist in Resources */,
 				898865031B843C99007054D4 /* XTUserFiles.plist in Resources */,
 				898864C11B84398E007054D4 /* ToolViewInputVoiceHL@2x.png in Resources */,
+				CD6160111F18AEF5001F6899 /* UMFeedbackLocalizable.strings in Resources */,
 				898868B21B846AF2007054D4 /* XTLoginInputViewController.xib in Resources */,
 				898868D61B846B7C007054D4 /* XTHotLicksOneViewController.xib in Resources */,
-				898865D61B845636007054D4 /* UMFeedbackLocalizable.strings in Resources */,
+				CD61601A1F18AEF5001F6899 /* ToolViewInputVoiceHL@2x.png in Resources */,
 				898869A61B847298007054D4 /* XTMyTopicCell.xib in Resources */,
 				898868F91B846C54007054D4 /* XTBlackListViewController.xib in Resources */,
 				898869211B846D6F007054D4 /* XTGeneralMessageTypeTwoCell.xib in Resources */,
 				898868B01B846AF2007054D4 /* XTForgetPasswordViewController.xib in Resources */,
+				CD6160191F18AEF5001F6899 /* ToolViewInputVoice@2x.png in Resources */,
 				898864BB1B84398E007054D4 /* cancel@2x.png in Resources */,
 				898864BE1B84398E007054D4 /* ToolViewInputText@2x.png in Resources */,
 				898866221B84596A007054D4 /* XTSearchAllViewController.xib in Resources */,
@@ -3711,7 +3719,6 @@
 				898864C71B84398E007054D4 /* umeng_fb_audio_play_default@2x.png in Resources */,
 				898864A91B84398E007054D4 /* area.plist in Resources */,
 				898869231B846D6F007054D4 /* XTNotificationMessageCell.xib in Resources */,
-				898865D91B845636007054D4 /* cancel@2x.png in Resources */,
 				8988691D1B846D6F007054D4 /* XTGeneralMessageTypeOneCell.xib in Resources */,
 				898864BA1B84398E007054D4 /* bubble_min@2x.png in Resources */,
 				898868971B8468DC007054D4 /* XTHomePageLikeAndHateCollectionViewCell.xib in Resources */,
@@ -3722,20 +3729,24 @@
 				8988662A1B84596A007054D4 /* XTSearchUsersViewController.xib in Resources */,
 				5FDD24E31AF0786A00808F96 /* Images.xcassets in Resources */,
 				898866A01B845BD1007054D4 /* XTSearchTagTableViewCell.xib in Resources */,
+				CD61601D1F18AEF5001F6899 /* umeng_fb_audio_play_01@2x.png in Resources */,
 				898864BC1B84398E007054D4 /* microphone@2x.png in Resources */,
 				898869311B846DB2007054D4 /* XTHotLicksHeaerView.xib in Resources */,
-				898865DA1B845636007054D4 /* microphone@2x.png in Resources */,
 				898867F81B846451007054D4 /* XTboundphoneViewController.xib in Resources */,
 				898869C51B8473BB007054D4 /* SeriesContent.storyboard in Resources */,
 				898867831B84604B007054D4 /* XTmoreViewController.xib in Resources */,
 				898868021B846451007054D4 /* XTSetUserFilesViewController.xib in Resources */,
 				898866EF1B845E2B007054D4 /* XTTopicIndexHeaderView.xib in Resources */,
+				CD6160171F18AEF5001F6899 /* ToolViewInputText@2x.png in Resources */,
 				8988691F1B846D6F007054D4 /* XTGeneralMessageTypeThreeCell.xib in Resources */,
 				898864C61B84398E007054D4 /* umeng_fb_audio_play_03@2x.png in Resources */,
 				89886A2B1B847694007054D4 /* XTImgDetailTitleView.xib in Resources */,
+				CD6160261F18AFF0001F6899 /* XTPickerView.xib in Resources */,
 				898866A41B845BD1007054D4 /* XTUserCollectionViewCell.xib in Resources */,
 				898864EA1B843A14007054D4 /* WeiboSDK.bundle in Resources */,
 				89886A291B847694007054D4 /* XTImgDetailRightItemsView.xib in Resources */,
+				CD61601F1F18AEF5001F6899 /* umeng_fb_audio_play_03@2x.png in Resources */,
+				CD6160181F18AEF5001F6899 /* ToolViewInputTextHL@2x.png in Resources */,
 				898865B81B8455E1007054D4 /* XTWebVIewViewController.xib in Resources */,
 				898868DA1B846B7C007054D4 /* XTLickingGodViewController.xib in Resources */,
 				898869811B847061007054D4 /* XTreviewTableViewCell.xib in Resources */,
@@ -3743,7 +3754,6 @@
 				898868C81B846B1B007054D4 /* XTLikeViewController.xib in Resources */,
 				898869A81B847298007054D4 /* XTTopicWithUserHeaderTableViewCell.xib in Resources */,
 				898866EB1B845E2B007054D4 /* XTPostTableViewCell.xib in Resources */,
-				898865E01B845636007054D4 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */,
 				898869011B846C54007054D4 /* XTNotificationMessageViewController.xib in Resources */,
 				8988656F1B844E7C007054D4 /* Config.plist in Resources */,
 				8988688A1B846796007054D4 /* XTHeadSetTableViewCell.xib in Resources */,
@@ -3752,11 +3762,9 @@
 				89886A331B847694007054D4 /* XTTagView.xib in Resources */,
 				898869731B84700F007054D4 /* XTLickRankingViewController.xib in Resources */,
 				89886A2D1B847694007054D4 /* XTImgDetailView.xib in Resources */,
-				898865E21B845636007054D4 /* umeng_fb_audio_play_01@2x.png in Resources */,
 				898868001B846451007054D4 /* XTRuleViewController.xib in Resources */,
 				898864C21B84398E007054D4 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */,
 				898864C41B84398E007054D4 /* umeng_fb_audio_play_01@2x.png in Resources */,
-				898865E11B845636007054D4 /* umeng_fb_audio_dialog_content@2x.png in Resources */,
 				898866F11B845E2B007054D4 /* XTTopicIndexTableViewCell.xib in Resources */,
 				898869421B846EDA007054D4 /* XTVSpreadTableViewHeader.xib in Resources */,
 				96D5DFC51B579C6F00DC406C /* guideAnimation.mp4 in Resources */,
@@ -3765,13 +3773,17 @@
 				898866461B8459F2007054D4 /* XTImageAndDescriptionCollectionViewCell.xib in Resources */,
 				898867FA1B846451007054D4 /* XTcheckBoundPhoneViewController.xib in Resources */,
 				898867851B84604B007054D4 /* XTbaseTableViewController.xib in Resources */,
+				CD61601C1F18AEF5001F6899 /* umeng_fb_audio_dialog_content@2x.png in Resources */,
 				898867FE1B846451007054D4 /* XTEditUserInfoViewController.xib in Resources */,
 				898868501B846514007054D4 /* XTAlbumCollectionViewCell.xib in Resources */,
 				89886A251B847694007054D4 /* XTCommendsView.xib in Resources */,
 				89886A201B847694007054D4 /* XTAlbumsOfPicView.xib in Resources */,
 				898864B81B84398E007054D4 /* UMFeedbackLocalizable.strings in Resources */,
 				898869631B846F56007054D4 /* XTHoverSwitchHeaderView.xib in Resources */,
+				CD6160151F18AEF5001F6899 /* microphone@2x.png in Resources */,
+				CD6160141F18AEF5001F6899 /* cancel@2x.png in Resources */,
 				898869031B846C54007054D4 /* XTPrivateMessageSetViewController.xib in Resources */,
+				CD6160131F18AEF5001F6899 /* bubble_min@2x.png in Resources */,
 				898864AC1B84398E007054D4 /* HZAreaPickerView.xib in Resources */,
 				898867FC1B846451007054D4 /* XTChangePassWViewController.xib in Resources */,
 				898868FC1B846C54007054D4 /* XTGeneralMessageViewController.xib in Resources */,
@@ -3780,6 +3792,7 @@
 				898867671B845F8A007054D4 /* JKImagePickerController.strings in Resources */,
 				96FB88111B3BACBB00602CE6 /* XTStickers.plist in Resources */,
 				898868041B846451007054D4 /* XTSetViewController.xib in Resources */,
+				CD61601E1F18AEF5001F6899 /* umeng_fb_audio_play_02@2x.png in Resources */,
 				898866241B84596A007054D4 /* XTSearchImagesViewController.xib in Resources */,
 				898867871B84604B007054D4 /* XTTopicTableViewCell.xib in Resources */,
 				898869A21B847298007054D4 /* XTHotRankListCell.xib in Resources */,
@@ -3788,18 +3801,15 @@
 				8988664B1B8459F2007054D4 /* XTImageAndTopicCollectionViewCell.xib in Resources */,
 				898869B71B847382007054D4 /* XTBigImageViewController.xib in Resources */,
 				898868B41B846AF2007054D4 /* XTLoginViewController.xib in Resources */,
+				CD6160201F18AEF5001F6899 /* umeng_fb_audio_play_default@2x.png in Resources */,
 				898866101B8458D4007054D4 /* XTAddLikeAndHateViewController.xib in Resources */,
 				8988688D1B846796007054D4 /* XTSetFootView.xib in Resources */,
 				898867F51B846451007054D4 /* XTAboutOursViewController.xib in Resources */,
 				8988692F1B846DB2007054D4 /* XTHotLicksHeaderCollectionViewCell.xib in Resources */,
 				898864EC1B843A14007054D4 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
-				898865DC1B845636007054D4 /* ToolViewInputText@2x.png in Resources */,
 				898866A21B845BD1007054D4 /* XTSearchTopicCollectionViewCell.xib in Resources */,
 				891BEAD61B8B083F003BB92D /* XTImageAnderLikeCollectionViewCell.xib in Resources */,
-				898865E31B845636007054D4 /* umeng_fb_audio_play_02@2x.png in Resources */,
 				898865B41B8455E1007054D4 /* XTRootViewController.xib in Resources */,
-				898865DB1B845636007054D4 /* save@2x.png in Resources */,
-				898865E51B845636007054D4 /* umeng_fb_audio_play_default@2x.png in Resources */,
 				898868651B846514007054D4 /* XTMessageSetTableViewCell.xib in Resources */,
 				898866491B8459F2007054D4 /* XTImageAnderUserAvatarCollectionViewCell.xib in Resources */,
 				898869771B84700F007054D4 /* XTTopicListViewController.xib in Resources */,
@@ -3809,18 +3819,16 @@
 				898864BF1B84398E007054D4 /* ToolViewInputTextHL@2x.png in Resources */,
 				898869E61B847555007054D4 /* XTMapImageSetView.xib in Resources */,
 				898866E91B845E2B007054D4 /* XTMyTopicInputCell.xib in Resources */,
+				CD61601B1F18AEF5001F6899 /* umeng_fb_audio_dialog_cancel@2x.png in Resources */,
 				898866A61B845BD1007054D4 /* XTVFollowCollectionViewCell.xib in Resources */,
 				898868C41B846B1B007054D4 /* XTHomePageViewController.xib in Resources */,
 				898864C51B84398E007054D4 /* umeng_fb_audio_play_02@2x.png in Resources */,
 				898869A41B847298007054D4 /* XTHotMyCreateTopicCell.xib in Resources */,
 				898869931B8471BF007054D4 /* XTLickgodGroupViewController.xib in Resources */,
 				898869F11B8475D0007054D4 /* XTInputView.xib in Resources */,
-				898865DD1B845636007054D4 /* ToolViewInputTextHL@2x.png in Resources */,
+				CD6160161F18AEF5001F6899 /* save@2x.png in Resources */,
 				89886A271B847694007054D4 /* XTCommentsCell.xib in Resources */,
 				898865191B843D2B007054D4 /* YYTBlankView.xib in Resources */,
-				898865D81B845636007054D4 /* bubble_min@2x.png in Resources */,
-				898865E41B845636007054D4 /* umeng_fb_audio_play_03@2x.png in Resources */,
-				898865E81B845636007054D4 /* XTPickerView.xib in Resources */,
 				898865B21B8455E1007054D4 /* XTNavigationController.xib in Resources */,
 				898868CA1B846B1B007054D4 /* XTPublicSquareViewController.xib in Resources */,
 				898866261B84596A007054D4 /* XTSearchIndexViewController.xib in Resources */,
@@ -3850,7 +3858,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		60DAB0EA52DDDB5F15BFF47C /* [CP] Embed Pods Frameworks */ = {
@@ -4000,6 +4008,7 @@
 				898869F01B8475D0007054D4 /* XTInputView.m in Sources */,
 				6B492A4E1B0C314A002722A8 /* XTAlbumInfo.m in Sources */,
 				89886A301B847694007054D4 /* XTProgressView.m in Sources */,
+				CD6160251F18AFF0001F6899 /* XTPickerView.m in Sources */,
 				898868D71B846B7C007054D4 /* XTHotLicksViewController.m in Sources */,
 				898865271B843D66007054D4 /* XTShareCell.m in Sources */,
 				898866AD1B845BD1007054D4 /* XTSearchImageCollectionView.m in Sources */,
@@ -4070,7 +4079,6 @@
 				898868C51B846B1B007054D4 /* XTHotViewController.m in Sources */,
 				898868671B846514007054D4 /* XTRenownValueView.m in Sources */,
 				89886A281B847694007054D4 /* XTImgDetailRightItemsView.m in Sources */,
-				898865E71B845636007054D4 /* XTPickerView.m in Sources */,
 				898869BA1B847382007054D4 /* XTImgDetailLogic.m in Sources */,
 				898865701B844E7C007054D4 /* XTConfig.m in Sources */,
 				898868891B846796007054D4 /* XTHeadSetTableViewCell.m in Sources */,
@@ -4322,15 +4330,6 @@
 			name = UMFeedbackLocalizable.strings;
 			sourceTree = "<group>";
 		};
-		898865BB1B845636007054D4 /* UMFeedbackLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				898865BC1B845636007054D4 /* Base */,
-				898865D21B845636007054D4 /* zh-Hans */,
-			);
-			name = UMFeedbackLocalizable.strings;
-			sourceTree = "<group>";
-		};
 		8988670B1B845F8A007054D4 /* JKImagePickerController.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -4345,6 +4344,15 @@
 				898867471B845F8A007054D4 /* zh-Hans */,
 			);
 			name = JKImagePickerController.strings;
+			sourceTree = "<group>";
+		};
+		CD615FF91F18AEF5001F6899 /* UMFeedbackLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD615FFA1F18AEF5001F6899 /* Base */,
+				CD6160101F18AEF5001F6899 /* zh-Hans */,
+			);
+			name = UMFeedbackLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -4466,6 +4474,8 @@
 					"$(PROJECT_DIR)/tian/Vendors/ShareSDK/wxSDKExport",
 					"$(PROJECT_DIR)/tian/General/PublicControls/XTPickerView/UMengFeedback_SDK_2.1.1",
 					"$(PROJECT_DIR)/tian/General/PublicControls/XTPickerView/UMengFeedback_SDK_2.1.1/UMOpus",
+					"$(PROJECT_DIR)/tian/General/XTPickerView/UMengFeedback_SDK_2.1.1",
+					"$(PROJECT_DIR)/tian/General/XTPickerView/UMengFeedback_SDK_2.1.1/UMOpus",
 				);
 				New_Setting = "";
 				OTHER_LDFLAGS = (
@@ -4513,6 +4523,8 @@
 					"$(PROJECT_DIR)/tian/Vendors/ShareSDK/wxSDKExport",
 					"$(PROJECT_DIR)/tian/General/PublicControls/XTPickerView/UMengFeedback_SDK_2.1.1",
 					"$(PROJECT_DIR)/tian/General/PublicControls/XTPickerView/UMengFeedback_SDK_2.1.1/UMOpus",
+					"$(PROJECT_DIR)/tian/General/XTPickerView/UMengFeedback_SDK_2.1.1",
+					"$(PROJECT_DIR)/tian/General/XTPickerView/UMengFeedback_SDK_2.1.1/UMOpus",
 				);
 				New_Setting = "";
 				OTHER_LDFLAGS = (
